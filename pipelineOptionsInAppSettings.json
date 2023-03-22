@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/51Degrees/configuration-validation/main/pipelineOptionsInAppSettings.json",
+  "title": "51Degrees Pipeline API configuration as part of an appsettings.json file",
+  "description": "51Degrees Pipeline API configuration as part of an appsettings.json file",
+  "allOf": [
+    { "$ref": "https://raw.githubusercontent.com/51Degrees/configuration-validation/main/pipelineOptionsSchema.json" },
+    { "$ref": "https://json.schemastore.org/appsettings.json" }
+  ]
+}

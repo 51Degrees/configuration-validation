@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://51degrees.com/pipeline-configuration-schema.json",
+  "$id": "https://raw.githubusercontent.com/51Degrees/configuration-validation/main/pipelineOptionsSchema.json",
   "title": "51Degrees Pipeline API configuration",
   "description": "51Degrees Pipeline API configuration",
   "type": "object",
