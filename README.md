@@ -6,3 +6,11 @@
 
 # Introduction
 This repository contains the schemas that are used to validate Pipeline API configuration files.
+
+# Schemas
+
+|Filename|Description|
+|---|---|
+|pipelineOptions.xsd|Used to validate xml settings files used by the Java Pipeline API|
+|pipelineOptionsSchema.json|Used to validate json settings files used by the .NET Pipeline API|
+|pipelineOptionsInAppSettings.json|Used to validate json `appsettings.json` files that contain ASP.NET configuration in addition to Pipeline API configuration |
