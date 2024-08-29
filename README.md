@@ -14,3 +14,5 @@ This repository contains the schemas that are used to validate Pipeline API conf
 |pipelineOptions.xsd|Used to validate xml settings files used by the Java Pipeline API|
 |pipelineOptionsSchema.json|Used to validate json settings files used by the .NET Pipeline API|
 |pipelineOptionsInAppSettings.json|Used to validate json `appsettings.json` files that contain ASP.NET configuration in addition to Pipeline API configuration |
+
+\* The `pipelineOptionsSchema.json` file is used in [FiftyOne.Pipeline.Web.Framework](https://github.com/51Degrees/pipeline-dotnet/blob/d74f3e7ba6554a5df93e4045b8a113676b06e5d9/Web%20Integration/FiftyOne.Pipeline.Web.Framework/Configuration/Extensions.cs#L121-L144) to validate the user's configuration file.
